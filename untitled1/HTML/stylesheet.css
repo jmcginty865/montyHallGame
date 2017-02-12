@@ -1,0 +1,51 @@
+#title{
+    color:gold;
+    text-align : center;
+
+}
+
+body{
+    background-color:black;
+}
+
+.instruction{
+    color:gold;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+#start{
+    text-align:center;
+    color:gold;
+}
+
+#doorResult{
+    text-align:center;
+    color:gold;
+    font-size:30px;
+}
+
+.button{
+    background-color:#6E6060;
+    border: solid;
+    border-color:gold;
+    border-width:1px;
+    color: gold;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.topButton{
+    padding-top:0%;
+    padding-left:35%;
+    padding-bottom: 0%;
+    padding-right: 35%;
+}
+
+.bottomButton{
+    padding-top: 0%;
+    padding-left: 34%;
+    padding-bottom: 0%;
+    padding-right: 34%;
+}

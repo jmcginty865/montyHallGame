@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="stylesheet.css"/>
+      <script type ="text/javascript" src ="jsMontyHall.js"></script>
+</head>
+<body>
+
+<h1 id ="title"> The Monty Hall Game </h1>
+<br>
+<p class ="instruction">For this game you have to pick one of three doors.<p>
+<p class ="instruction">Behind two of the doors are goats, but behind the third door is a <b>Car!</b><p>
+<p class ="instruction">Pick one door then the game will show you a goat the goat behind one of the remaining two doors<p>
+      <br>
+      <br>
+      <h1 id="start"> <b>Pick a door</b><h1>
+            <div class = "topButton">
+                  <button class = "button" onclick="doorOne()"><b>Door One</b></button>
+                  <button class = "button" onclick="doorTwo()"><b>Door Two</b></button>
+                  <button class = "button" onclick="doorThree()"><b>Door Three</b></button>
+            </div>
+            <br>
+<p id ="doorResult"> Which door did you pick? </p>
+<br>
+<div class = "bottomButton">
+      <button class = "button" onclick ="switchDoor()"><b>Change your Door?</b></button>
+      <button class= "button" onclick ="keepDoor()"><b>Keep your Door?</b></button>
+</div>
+<p id = "doorAnswer">   </p>
+
+</body>
+</html>
